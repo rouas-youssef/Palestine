@@ -29,8 +29,8 @@ basicTimeline
   })
   .add({
     targets: 'svg',
-    translateX: -120,
-    translateY: -100,
+    translateX: -100,
+    translateY: -80,
     easing: 'linear',
     duration: 850,
   })

@@ -20,6 +20,7 @@ body {
     box-shadow: 0 10px 20px #eee1;
     border: solid 1px #eee;
     padding: 20px;
+    padding-bottom: 10px;
     display: flex;
     /* align-items: center; */
     gap: 20px;
@@ -37,17 +38,21 @@ body {
 }
 
 svg {
-    height: 200px;
+    height: 100px;
     position: absolute;
-    left: 10%;
-    top: calc(50% - 50px);
+    left: 50%;
+    top: 50%;
     /* transform: translate(-50%, -50%); */
 }
 
 .palestine {
-    height: 400px;
+    height: 285px;
+    width: 280px;
     margin: auto;
-    width: auto;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
 }
 
 h1 {
@@ -81,5 +86,6 @@ h1 {
         align-items: center;
         justify-content: center;
         flex-direction: column-reverse;
+        padding-bottom: 20px;
     }
 }
